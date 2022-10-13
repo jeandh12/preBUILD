@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Theme clrs */
+body {
+  font-family: Avenir, sans-serif;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: #0a2540;
+}
+header img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1500px;
+  padding-top: 100px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+.container .block-1 .btn {
+  margin: 50px 0;
+}
+
+.bg {
+  padding: 50px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.light-bg .cta {
+  position: relative;
+  transition: all 0.2s ease;
+  padding-left: 20px;
+  padding-right: 25px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.light-bg .cta:before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: rgba(51, 75, 232, 0.2);
+  width: 46px;
+  height: 46px;
+  transition: all 0.3s ease;
+}
+.light-bg .cta span {
+  position: relative;
+  color: #334be8;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 900;
+  vertical-align: middle;
+}
+.light-bg .cta svg {
+  position: relative;
+  top: 50%;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.light-bg .cta:hover:before {
+  width: 100%;
+  background: rgba(51, 75, 232, 0.5);
+}
+.light-bg .cta:hover svg {
+  transform: translateX(0);
+}
+.light-bg .cta:active {
+  transform: scale(0.96);
+}
+
+.dark-bg {
+  margin-top: 25px;
+  background-color: #0a2540;
+}
+.dark-bg .cta {
+  position: relative;
+  transition: all 0.2s ease;
+  padding-left: 20px;
+  padding-right: 25px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.dark-bg .cta:before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.3);
+  width: 46px;
+  height: 46px;
+  transition: all 0.3s ease;
+}
+.dark-bg .cta span {
+  position: relative;
+  color: white;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 900;
+  vertical-align: middle;
+}
+.dark-bg .cta svg {
+  position: relative;
+  top: 50%;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: white;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.dark-bg .cta:hover:before {
+  width: 100%;
+  background: rgba(51, 75, 232, 0.5);
+}
+.dark-bg .cta:hover svg {
+  transform: translateX(0);
+}
+.dark-bg .cta:active {
+  transform: scale(0.96);
+}/*# sourceMappingURL=style.css.map */
